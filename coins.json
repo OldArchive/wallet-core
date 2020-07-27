@@ -1404,5 +1404,35 @@
             "clientPublic": "https://api-wt2-lb.bandchain.org",
             "clientDocs": "https://docs.bandchain.org/"
         }
+    },
+    {
+        "id":"ghost",
+        "name":"Ghost",
+        "symbol":"GHOST",
+        "decimals":8,
+        "blockchain":"Bitcoin",
+        "derivationPath":"m/44'/531'/0'/0/0",
+        "curve":"secp256k1",
+        "publicKeyType":"secp256k1",
+        "p2pkhPrefix":38,
+        "p2shPrefix":97,
+        "hrp":"gp",
+        "publicKeyHasher":"sha256ripemd",
+        "base58Hasher":"sha256d",
+        "xpub":"PGHST",
+        "xprv":"XGHST",
+        "explorer":{
+            "url":"https://ghostscan.io",
+            "txPath":"/tx/",
+            "accountPath":"/address/",
+            "sampleTx":"85a3fabef7e6f44be4839b50e2336616bbc7f87c59e3d8c422d36971f6cdfd43",
+            "sampleAccount":"2vGo6CA3u6FzuUuZnzsTmmJFPbzhzE8W3h19E3XdW2H3erDyWmr"
+        },
+        "info":{
+            "url":"https://www.ghostbymcafee.com/",
+            "client":"https://github.com/ghost-coin/ghost-core",
+            "clientPublic":"",
+            "clientDocs":""
+        }
     }
 ]
